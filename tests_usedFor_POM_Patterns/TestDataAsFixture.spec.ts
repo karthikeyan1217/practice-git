@@ -6,7 +6,7 @@ test.beforeEach('before each', async ({ page, credentials,  }) => {
     await page.getByPlaceholder('Username').fill(credentials.username);
     await page.getByPlaceholder('Password').fill(credentials.password);
     await page.getByRole('button', { name: 'Login' }).click();
-    await console.log(credentials);
+
 })
 
 
