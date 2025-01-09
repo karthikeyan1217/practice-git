@@ -9,7 +9,7 @@ import data from '../TestData//Excel.csv'
 
 let recorfs = parse(fs.readFileSync('TestData//Excel.csv'), {
   columns: true,
-  skip_empty_lines: true,
+  skip_empty_linesss: true,
 
 })
 
