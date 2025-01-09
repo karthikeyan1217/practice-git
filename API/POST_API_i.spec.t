@@ -16,7 +16,7 @@ import { expect, test, request } from '@playwright/test'
 
 //     let responsHeder = await resposn.json();
 //     console.log(responsHeder)
-
+//console.log("")
 //     // expect(resposn.status()).toBe(200)
 //     // console.log(resposn.status())
 //     // expect(resposn.ok()).toBeTruthy();
