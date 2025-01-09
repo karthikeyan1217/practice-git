@@ -1,0 +1,25 @@
+{
+  "name": "type-script-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ArrayConcept.js",
+  "scripts": {
+    "test_dev": "cross-env Test_Name=dev npx playwright test HandlingMultipleEnv.spec.ts",
+    "test_prod": "cross-env Test_Name=prod npx playwright test HandlingMultipleEnv.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.9.0",
+    "playwright": "^1.48.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "allure-playwright": "^2.15.1",
+    "cross-env": "^7.0.3",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.7"
+  }
+}
