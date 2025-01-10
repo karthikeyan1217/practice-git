@@ -1,0 +1,11 @@
+{
+  bookingid: 1706,
+  booking: {
+    firstname: 'Vg_POST',
+    lastname: 'Brown',
+    totalprice: 111,
+    depositpaid: true,
+    bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+    additionalneeds: 'Breakfast'
+  }
+}

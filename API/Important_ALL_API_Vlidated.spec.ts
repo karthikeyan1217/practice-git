@@ -34,6 +34,7 @@ test('validate  the PUT API', async ({ request }) => {
     )
     let ref = await PutTemp.json();
     console.log(ref)
+    console.log(ref)
 
 
 
