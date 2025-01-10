@@ -21,7 +21,7 @@ test('Validate the product', async ({ page, loginPage, homePage, yourCart }) => 
     // await loginPage.loginApp('standard_user', 'secret_sauce');
 
 
-    /*
+    /*h**
     await homePage.selectTheProductByUsingName("Sauce Labs Bolt T-Shirt");
     expect(homePage.verifySelectedprouctIsMatching("Sauce Labs Bolt T-Shirt")).toBeTruthy();//check selected is mathcing in the next page
     let buttonNameAddToCart = await homePage.AddtoCartButton.textContent();
