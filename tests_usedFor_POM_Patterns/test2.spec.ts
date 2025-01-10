@@ -32,6 +32,7 @@ for (const data of records) {
         await page.locator("//input[@name = 'lastName']").fill(data.LastName);
         await page.locator("//button[@type= 'submit']").click();
         await page.waitForTimeout(2000);
+         await page.waitForTimeout(2000);
 
     })
 };
